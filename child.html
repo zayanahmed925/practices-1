@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first li:nth-child(2n) {
+            color: blue;
+            background-color: gray;
+        }
+
+        h1::before {
+            content: 'hello ';
+        }
+
+        h1::after {
+            content: ' Bye';
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Its test purfose</h1>
+    <ul class="first">
+        <li>data-1</li>
+        <li>data-2</li>
+        <li>data-3</li>
+        <li>data-4</li>
+    </ul>
+    <ul>
+        <li>data-1</li>
+        <li>data-2</li>
+        <li>data-3</li>
+        <li>data-4</li>
+    </ul>
+</body>
+
+</html>

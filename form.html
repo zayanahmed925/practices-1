@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Item-area {
+            background-color: rgb(233, 229, 229);
+            width: 200px
+        }
+
+        .Item-area,
+        input {
+            color: darkslategray;
+            font-weight: 700;
+        }
+
+        .for-chicken:hover .choose-area {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <p>Name: <input type="text" name=" " placeholder="Enter your name" id=""></p>
+        <p>Email: <input type="text" name=" " placeholder="Enter your Email" id=""></p>
+        <fieldset class="Item-area">
+            <legend>Choose for Food</legend>
+            <p class="For-chicken">
+                <label for="chicken">
+                    <input type="radio" name="Food" id="chicken">Chicken
+                </label>
+            </p>
+            <p>
+                <label for="Burger">
+                    <input type="radio" name="Food" id="Burger">Burger
+                </label>
+            </p>
+            <p>
+                <label for="sandwitch">
+                    <input type="radio" name="Food" id="sandwitch">Sandwitch
+                </label>
+        </fieldset>
+        <fieldset class="choose-area">
+            <legend>Choose Item</legend>
+            <p>
+                <label for="medium">
+                    <input type="checkbox" name="" id="medium">Medium Cheese
+                </label>
+            </p>
+            <p>
+                <label for="extra">
+                    <input type="checkbox" name="" id="extra">Extra Cheese
+                </label>
+            </p>
+            <p>
+                <label for="chille">
+                    <input type="checkbox" name="" id="chille">chille Cheese
+                </label>
+            </p>
+        </fieldset>
+        <textarea name="Message" placeholder="Any Idea" id="" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
