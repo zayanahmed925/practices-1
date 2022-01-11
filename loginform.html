@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f80137299c.js" crossorigin="anonymous"></script>
+    <style>
+        nav a {
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .form-site {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-site input,
+        button {
+            font-size: 1em;
+            padding-left: 7px;
+            margin-top: 10px;
+        }
+
+        .form-site button {
+            background-color: coral;
+            color: white;
+            border: none;
+            padding: 5px
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <span>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">product</a>
+            <a href="">Service</a>
+        </span>
+        <span>
+            <a href=""><i class="fas fa-sign-in-alt"></i></a>
+            <a href=""><i class="fas fa-sign-out-alt"></i></a>
+        </span>
+    </nav>
+    <section>
+        <div class="form-site">
+            <h1>Login Form</h1>
+            <input type="email" name="" placeholder="Enter You Email" id="">
+            <input type="password" name="" placeholder="Enter Six Digit Password" id="">
+            <button type="submit">Submit</button>
+        </div>
+    </section>
+</body>
+
+</html>

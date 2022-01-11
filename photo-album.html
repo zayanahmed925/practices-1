@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-frame {
+            width: 225px;
+            height: 225px;
+            position: relative;
+            margin: 15px;
+            padding: 5px;
+            overflow: hidden;
+            border: 3px solid orange;
+
+        }
+
+        .lion-details {
+            position: absolute;
+            width: 220px;
+            top: 0;
+            display: none;
+        }
+
+        .photo-frame:hover .lion-details {
+            display: block;
+            padding-left: 7px;
+            background-color: rgba(201, 170, 91, 0.466);
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.2) rotate(5deg);
+            transition: transform 1s linear 0.3s;
+        }
+
+        .photo-albam {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Lion Photo Album</h1>
+        <div class="photo-albam">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/lion.jpg" alt="">
+                </div>
+                <div class="lion-details">
+                    <h2>Lion Story</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptas laudantium consequuntur
+                        rerum numquam ullam, culpa eos eligendi quia, rem molestias deserunt dignissimos. Eos qui
+                        corrupti ipsum facilis architecto enim?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/lion.jpg" alt="">
+                </div>
+                <div class="lion-details">
+                    <h2>Lion Story</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptas laudantium consequuntur
+                        rerum numquam ullam, culpa eos eligendi quia, rem molestias deserunt dignissimos. Eos qui
+                        corrupti ipsum facilis architecto enim?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/lion.jpg" alt="">
+                </div>
+                <div class="lion-details">
+                    <h2>Lion Story</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptas laudantium consequuntur
+                        rerum numquam ullam, culpa eos eligendi quia, rem molestias deserunt dignissimos. Eos qui
+                        corrupti ipsum facilis architecto enim?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/lion.jpg" alt="">
+                </div>
+                <div class="lion-details">
+                    <h2>Lion Story</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptas laudantium consequuntur
+                        rerum numquam ullam, culpa eos eligendi quia, rem molestias deserunt dignissimos. Eos qui
+                        corrupti ipsum facilis architecto enim?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/lion.jpg" alt="">
+                </div>
+                <div class="lion-details">
+                    <h2>Lion Story</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptas laudantium consequuntur
+                        rerum numquam ullam, culpa eos eligendi quia, rem molestias deserunt dignissimos. Eos qui
+                        corrupti ipsum facilis architecto enim?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/lion.jpg" alt="">
+                </div>
+                <div class="lion-details">
+                    <h2>Lion Story</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptas laudantium consequuntur
+                        rerum numquam ullam, culpa eos eligendi quia, rem molestias deserunt dignissimos. Eos qui
+                        corrupti ipsum facilis architecto enim?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
